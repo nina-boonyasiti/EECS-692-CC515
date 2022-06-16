@@ -1,0 +1,44 @@
+/* dialog.css */
+
+/* Your css code goes here... */
+/* .dialog {
+  display: none;
+} */
+
+.dialog.active {
+  /* display: block; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0,0,0,0.5);
+}
+
+.dialog-content {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: black 5px 5px 5px;
+}
+
+.close-button {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  float: right;
+  margin-top: -10px;
+  margin-right: -10px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
